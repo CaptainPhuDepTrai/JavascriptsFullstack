@@ -33,7 +33,7 @@ const serverRender = (contestId) =>
       const initialData = getInitialData(contestId, resp.data);
       return {
         initialMarkup: ReactDOMServer.renderToString(
-          <App initialData={initialData} />
+          <App initialData={initialData} 
         ),
         initialData
       };
