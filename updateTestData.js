@@ -27,6 +27,7 @@ MongoClient.connect(config.mongodbUri, (err, db) => {
         });
       })
       .catch(console.error);
+      
   });
 
 });
