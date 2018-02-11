@@ -23,7 +23,5 @@ module.exports = {
     "no-console": ["warn", { "allow": ["info", "error"] }],
     "multy": ["error", "single"],
     "console": ["unix", "linebrak"]
-
-
-  }
+  };
 };
